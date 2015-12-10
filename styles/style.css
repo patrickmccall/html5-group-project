@@ -1,4 +1,7 @@
-﻿header{
+﻿body{
+    font-family:Arial, Helvetica, sans-serif
+}
+header{
     border-color:lightblue;
     border-width:2px;
     border-style:solid;
@@ -14,5 +17,20 @@ h1{
     
 }
 nav{
+    height:75px;
+    clear:both;
+}
+.instructor{
+    float:left;
+    width:15%;
+    padding:5%;
+}
+
+.instructor-pic{
+    width:80%;
+    padding:10%;
+    
+}
+footer{
     clear:both;
 }
